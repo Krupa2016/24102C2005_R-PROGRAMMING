@@ -1,9 +1,43 @@
 # Krupa gurav
 # 24102C2005
 # BE CMPN C
+# Week 02: 
+# A. Basic Operations in R
+# B. R as a Calculator with Scalars and Data Vectors : Addition, Subtraction, Multiplication & Division
 
-# Week 02: R as a Calculator with Scalars and Data Vectors : Addition, Subtraction, Multiplication & Division
 
+
+
+# A. Basic Operations in R
+
+# assigning values to variables
+x <- 20
+y = "apple"
+
+# Identifying Data Types
+is.numeric(x) # Returns TRUE
+is.character(y) # Returns TRUE
+
+# Converting Data Types
+z = as.numeric(y)
+
+# Handling Infinite Values 
+result = 3 / 0 # result becomes Inf
+is.finite(result) # Returns FALSE
+is.infinite(result) # Returns TRUE
+x = 5 + Inf # x becomes Inf
+is.finite(x) # Returns FALSE
+is.infinite(x) # Returns TRUE
+
+
+
+
+
+
+
+
+
+# B. R as a Calculator with Scalars and Data Vectors : Addition, Subtraction, Multiplication & Division
 
 # 1. With Scalars
 x<- 10
