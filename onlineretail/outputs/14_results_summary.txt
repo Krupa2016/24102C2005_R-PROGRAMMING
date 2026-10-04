@@ -1,0 +1,31 @@
+CUSTOMER SEGMENTATION & PREDICTIVE ANALYTICS - RESULTS
+Customers analysed: 4338
+K-Means clusters: 4
+K-Means average silhouette: 0.3135
+High-value cluster: 3
+
+Model metrics:
+          Model  Accuracy Precision    Recall        F1   ROC_AUC
+1 Random Forest 0.9896074 0.9759615 0.9806763 0.9783133 0.9994759
+2           SVM 0.9942263 0.9855769 0.9903382 0.9879518 0.9998021
+
+Cluster profile:
+# A tibble: 4 × 8
+  Cluster Customers Recency Frequency Monetary AvgTransactionValue TotalQuantity
+  <fct>       <int>   <dbl>     <dbl>    <dbl>               <dbl>         <dbl>
+1 1             754   167.       1.16     145.                134.          83.0
+2 2             871   145.       1.09     533.                503.         435. 
+3 3            1039    23.3     11.0     5365.                510.        3721. 
+4 4            1674    73.6      3.17     832.                280.         514. 
+# ℹ 1 more variable: PurchaseFrequency <dbl>
+
+Marketing recommendations:
+# A tibble: 4 × 10
+  Cluster Customers Recency Frequency Monetary AvgTransactionValue TotalQuantity
+  <fct>       <int>   <dbl>     <dbl>    <dbl>               <dbl>         <dbl>
+1 1             754   167.       1.16     145.                134.          83.0
+2 2             871   145.       1.09     533.                503.         435. 
+3 3            1039    23.3     11.0     5365.                510.        3721. 
+4 4            1674    73.6      3.17     832.                280.         514. 
+# ℹ 3 more variables: PurchaseFrequency <dbl>, Segment <chr>,
+#   Recommendation <chr>
