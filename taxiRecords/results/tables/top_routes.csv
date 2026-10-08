@@ -1,0 +1,11 @@
+route,trips,revenue
+Upper East Side South → Upper East Side North,67179,1075174.52999997
+Upper East Side North → Upper East Side South,56584,935038.039999968
+Upper East Side North → Upper East Side North,46402,649172.819999994
+Upper East Side South → Upper East Side South,45196,670686.109999996
+Midtown Center → Upper East Side South,29183,546121.919999994
+Upper East Side South → Midtown Center,25811,466405.049999996
+Midtown Center → Upper East Side North,23979,565563.610000001
+Lincoln Square East → Upper West Side South,23659,361249.540000005
+Upper West Side South → Upper West Side North,23547,329450.750000005
+Lenox Hill West → Upper East Side North,22086,353870.480000007
